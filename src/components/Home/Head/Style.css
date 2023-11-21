@@ -1,0 +1,81 @@
+.head {
+  background: var(--bg-2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+.head .logo {
+  display: grid;
+  place-items: center;
+}
+
+.head .logo img {
+  max-width: 180px;
+  cursor: pointer;
+}
+
+.head .buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.head .buttons button {
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: none;
+  color: var(--white);
+  outline: none;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: all 0.4s ease;
+}
+
+.head .buttons button:first-child {
+  background: none;
+}
+
+.head .buttons button:first-child:hover {
+  transition: all 0.4s ease;
+  border: 2px solid var(--green);
+}
+
+.head .buttons button:last-child {
+  background: var(--green);
+  text-shadow: 1px 2px #0000006b;
+}
+
+@media (max-width: 620px) {
+  .head {
+    padding: 15px 10px;
+  }
+  .head .logo img {
+    max-width: 100px;
+    cursor: pointer;
+  }
+  .head .buttons button {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 400px) {
+  .head .logo img {
+    max-width: 100px;
+    cursor: pointer;
+  }
+  .head .buttons button {
+    font-size: 0.9em;
+    padding: 8px 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .head .logo img {
+    max-width: 100px;
+    cursor: pointer;
+  }
+  .head .buttons button:first-child {
+    display: none;
+  }
+}

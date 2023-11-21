@@ -1,0 +1,46 @@
+.calltoaction{
+    width: 100%;
+    background:var(--blue);
+    margin-top: 100px;
+    height: 450px;
+}
+
+.calltoaction .content{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.calltoaction .content img{
+    max-width: 250px;
+}
+
+.calltoaction .content p{
+    font-size: 1.2em;
+}
+
+.calltoaction .content button{
+    padding: 15px 40px;
+    font-size: 1.2em;
+    border-radius: 30px;
+    background: var(--green);
+    border: none;
+    color: var(--white);
+    font-weight: 600;
+    text-shadow: 2px 1px #00000062;
+    outline: none;
+    cursor: pointer;
+}
+
+@media (max-width: 620px) {
+    .calltoaction{
+        height: 650px;
+    }
+
+.calltoaction .content{
+    width: 95%;
+}
+}
