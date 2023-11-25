@@ -38,8 +38,7 @@ const Steps = () => {
           <div className="content">
             <h2>Deposita</h2>
             <p>
-              Haz crecer tu patrimonio con facilidad. Con <strong>Nuovo</strong>
-              , depositar dinero es tan sencillo como un clic.
+            Haz crecer tu patrimonio con facilidad. Con Nuovo, depositar dinero es tan sencillo como un clic. Te ofrecemos diferentes opciones para gestionar tu dinero de manera efectiva y segura.
             </p>
 
             <Link>
