@@ -21,6 +21,9 @@
 .calltoaction .content p{
     font-size: 1.2em;
 }
+.calltoaction .content strong{
+    color: var(--green);
+}
 
 .calltoaction .content button{
     padding: 15px 40px;

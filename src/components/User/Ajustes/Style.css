@@ -1,0 +1,195 @@
+.enlaces_ajustes {
+  margin-top: 50px;
+}
+
+.enlaces_ajustes .content {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--gray);
+  padding-bottom: 10px;
+  max-width: 350px;
+}
+
+.enlaces_ajustes .content .item.active a {
+  color: var(--green);
+  font-weight: 600;
+}
+
+/* ********* perfil ********* */
+
+.ajustes_perfil {
+  width: 100%;
+  max-width: 350px;
+}
+
+.ajustes_perfil .content h2 {
+  font-weight: 500;
+}
+
+.ajustes_perfil .imgPerfil {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.ajustes_perfil .imgPerfil .foto {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.ajustes_perfil .imgPerfil .foto img {
+  max-width: 80px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 9;
+}
+
+.ajustes_perfil .imgPerfil .foto .input input {
+  display: none;
+}
+
+.ajustes_perfil .imgPerfil .foto .input {
+  position: absolute;
+  left: 50px;
+  top: 40px;
+  z-index: 10;
+}
+
+.ajustes_perfil .imgPerfil .foto .input label {
+  width: 40px;
+  height: 40px;
+  background: var(--blue);
+  display: grid;
+  place-items: center;
+  border-radius: 15px;
+  color: var(--green);
+  cursor: pointer;
+}
+
+/* ********* perfil ********* */
+
+/* ********* verificacion ********* */
+
+.ajustes_verificacion {
+  width: 100%;
+  max-width: 400px;
+}
+
+.ajustes_verificacion .content h2 {
+  font-weight: 500;
+}
+
+
+
+.ajustes_verificacion .estatus {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+.ajustes_verificacion .estatus.active{
+    display: block;
+}
+
+.ajustes_verificacion .estatus .danger {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--red);
+}
+
+.ajustes_verificacion .text {
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.ajustes_verificacion .text svg {
+  color: var(--green);
+  cursor: pointer;
+  margin-bottom: -5px;
+  margin-left: 10px;
+}
+
+.ajustes_verificacion .fotosVerificacion {
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  margin-top: 40px;
+}
+
+.ajustes_verificacion .fotosVerificacion .fotoVerificacion input{
+    display: none;
+}
+
+.ajustes_verificacion .fotosVerificacion .fotoVerificacion label{
+    background: #000;
+    padding: 15px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    text-shadow: 2px 1px #000000a4;
+}
+
+.ajustes_verificacion .fotosVerificacion .fotoVerificacion:first-child label{
+    background: var(--green);
+    color: var(--white);
+}
+
+.ajustes_verificacion .fotosVerificacion .fotoVerificacion:last-child label{
+    border: 2px solid var(--green);
+    background: none;
+    color: var(--white);
+}
+
+.ajustes_verificacion .verificado{
+    display: none;
+}
+
+.ajustes_verificacion .verificado.active{
+    display: block;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    gap: 10px;
+}
+.ajustes_verificacion .verificado p{
+ font-size: 2em;
+}
+
+.ajustes_verificacion .verificado svg{
+    font-size: 2em;
+    color: var(--green);
+}
+
+/* ********* verificacion ********* */
+
+
+/* ********* Seguridad ********* */
+
+
+.ajustes_seguridad {
+  width: 100%;
+  max-width: 400px;
+}
+
+.ajustes_seguridad .content h2 {
+  font-weight: 500;
+}
+
+.ajustes_seguridad .content .text{
+  margin-top: 50px;
+}
+.ajustes_seguridad .content .text button{
+  background: none;
+  cursor: pointer;
+  border: none;
+  color: var(--green);
+  outline: none;
+  padding: 0;
+}
+
+/* ********* Seguridad ********* */
