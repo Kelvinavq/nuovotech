@@ -1,5 +1,5 @@
 import Register_Form from "../../components/Register/Register-Form"
-import Footer from "../../components/footer/Footer"
+import Footer from "../../components/Footer/Footer"
 
 const Register = () => {
   return (
