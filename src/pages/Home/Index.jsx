@@ -5,7 +5,7 @@ import CallToAction from "../../components/Home/CallToAction/CallToAction"
 import Advantages from "../../components/Home/Advantages/Advantages"
 import Footer from "../../components/footer/Footer"
 
-const Home = () => {
+const Index = () => {
   return (
     <div>
       <Head/>
@@ -18,4 +18,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Index
