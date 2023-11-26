@@ -23,7 +23,7 @@ const Register_Form = () => {
 
   return (
     <div className="register">
-      <form action="">
+      <form action="/user/dashboard">
         <div>
           <div className="content">
             <img src={logotipo} alt="logotipo nuovotech" />

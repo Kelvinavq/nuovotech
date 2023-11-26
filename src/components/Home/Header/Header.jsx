@@ -1,5 +1,6 @@
 import device from "../../../assets/images/frame.png";
 import "./Style.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -11,7 +12,12 @@ const Header = () => {
             Trae tu dinero de otras billeteras, recibe pagos y conviértelo en
             moneda local con una cuenta en dólares conectada con el mundo.
           </p>
-          <button>Únete ahora</button>
+          
+          <button>
+          <Link to="/registro">
+            Únete ahora
+          </Link>
+            </button>
         </div>
 
         <div className="right">

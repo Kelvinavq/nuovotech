@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const LoginForm = () => {
   return (
     <div className="login">
-      <form action="">
+      <form action="/user/dashboard">
         <div className="content">
           <img src={logotipo} alt="logotipo nuovotech" />
           <h2>Iniciar Sesión</h2>
@@ -33,7 +33,7 @@ const LoginForm = () => {
           </div>
 
           <div className="submit">
-            <Link to="/">¿Olvidaste tu contraseña?</Link>
+            <Link to="/user/dashboard">¿Olvidaste tu contraseña?</Link>
             <input type="submit" value="Ingresar" />
           </div>
           <div className="enlace">

@@ -25,7 +25,7 @@ const Steps = () => {
               buenas manos.
             </p>
 
-            <Link>
+            <Link to="/registro">
               <ArrowRightAltIcon />
             </Link>
           </div>
@@ -41,7 +41,7 @@ const Steps = () => {
             Haz crecer tu patrimonio con facilidad. Con Nuovo, depositar dinero es tan sencillo como un clic. Te ofrecemos diferentes opciones para gestionar tu dinero de manera efectiva y segura.
             </p>
 
-            <Link>
+            <Link to="/registro">
               <ArrowRightAltIcon />
             </Link>
           </div>
@@ -60,7 +60,7 @@ const Steps = () => {
               complicaciones.
             </p>
 
-            <Link>
+            <Link to="/registro">
               <ArrowRightAltIcon />
             </Link>
           </div>
