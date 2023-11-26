@@ -1,5 +1,5 @@
 import "./Style.css"
-import logotipo from "../../../assets/images/Nuovo.png"
+import logotipo from "../../../assets/images/nuovo.png"
 
 const CallToAction = () => {
   return (
