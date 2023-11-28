@@ -7,17 +7,15 @@ const Header = () => {
     <div className="container">
       <div className="header">
         <div className="left">
-          <h2>Mueve y usa tu dinero como y cuando quieras</h2>
+          <h2>Mové y usá tu dinero, como y cuando quieras!</h2>
           <p>
-            Trae tu dinero de otras billeteras, recibe pagos y conviértelo en
-            moneda local con una cuenta en dólares conectada con el mundo.
+            Traé tu dinero de otras billeteras, recibí pagos y transferilo desde
+            tu cuenta en EEUU en dólares conectada con el mundo.
           </p>
-          
+
           <button>
-          <Link to="/registro">
-            Únete ahora
-          </Link>
-            </button>
+            <Link to="/registro">UNITE AHORA</Link>
+          </button>
         </div>
 
         <div className="right">

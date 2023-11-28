@@ -27,7 +27,7 @@ const Advantages = () => {
 
                     <div className="content">
                         <h2>Seguridad Integral</h2>
-                        <p>Deposita con confianza sabiendo que NuovoTech prioriza la seguridad de tus fondos con las últimas medidas de protección.</p>
+                        <p>Depositá con confianza sabiendo que NuovoTech prioriza la seguridad de tus fondos con las últimas medidas de protección.</p>
                     </div>
                 </div>
 
@@ -38,7 +38,7 @@ const Advantages = () => {
 
                     <div className="content">
                         <h2>Transacciones Rápidas</h2>
-                        <p>Experimenta la velocidad en tus transacciones: retira fondos o realiza transferencias de manera rápida.</p>
+                        <p>Experimentá la velocidad en tus transacciones: retirá fondos o realiza transferencias de manera rápida.</p>
                     </div>
                 </div>
 
@@ -49,7 +49,7 @@ const Advantages = () => {
 
                     <div className="content">
                         <h2>Sin Comisiones Ocultas</h2>
-                        <p>Disfruta de tus transacciones  sin preocupaciones, ya que no aplicamos comisiones ocultas.</p>
+                        <p>Disfrutá de tus transacciones  sin preocupaciones, ya que no aplicamos comisiones ocultas.</p>
                     </div>
                 </div>
 

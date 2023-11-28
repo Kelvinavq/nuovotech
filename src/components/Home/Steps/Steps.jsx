@@ -19,10 +19,7 @@ const Steps = () => {
           <div className="content">
             <h2>Regístrate</h2>
             <p>
-              Tu puerta de entrada al mundo financiero digital. Regístrate ahora
-              para disfrutar de una experiencia bancaria moderna, segura y sin
-              complicaciones. Con <strong>Nuovo</strong>, tu dinero está en
-              buenas manos.
+            Tu puerta de entrada al mundo financiero digital. Registrate ahora para disfrutar de una experiencia bancaria moderna, segura y sin complicaciones. 
             </p>
 
             <Link to="/registro">
@@ -32,13 +29,13 @@ const Steps = () => {
         </div>
         <div className="card">
           <div className="container">
-            <img src={registro} alt="registro nuovo" />
+            <img src={deposito} alt="deposito nuovo" />
           </div>
 
           <div className="content">
-            <h2>Deposita</h2>
+            <h2>Depositá</h2>
             <p>
-            Haz crecer tu patrimonio con facilidad. Con Nuovo, depositar dinero es tan sencillo como un clic. Te ofrecemos diferentes opciones para gestionar tu dinero de manera efectiva y segura.
+            Con Nuovo, depositar dinero es tan sencillo como un clic. Te ofrecemos diferentes opciones para gestionar tu dinero de manera efectiva y segura.
             </p>
 
             <Link to="/registro">
@@ -48,16 +45,13 @@ const Steps = () => {
         </div>
         <div className="card">
           <div className="container">
-            <img src={registro} alt="registro nuovo" />
+            <img src={retiro} alt="retiro nuovo" />
           </div>
 
           <div className="content">
-            <h2>Retira</h2>
+            <h2>Retirá</h2>
             <p>
-              Tu dinero, tu elección. Retira fondos de manera conveniente y
-              segura con <strong>Nuovo</strong>. Sea cual sea tu necesidad,
-              estamos aquí para hacer que acceder a tu dinero sea rápido y sin
-              complicaciones.
+            Tu dinero, tu elección! Retirá tu saldo de manera conveniente y segura. Sea cual sea tu necesidad, estamos aquí para hacer que acceder a tu dinero sea rápido y sin complicaciones
             </p>
 
             <Link to="/registro">

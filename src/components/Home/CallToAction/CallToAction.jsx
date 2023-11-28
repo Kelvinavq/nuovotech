@@ -9,16 +9,16 @@ const CallToAction = () => {
         <img src={logotipo} alt="logotipo nuovotech" />
 
         <p>
-          ¡Únete a la revolución financiera con <strong>Nuovo</strong>!
-          Regístrate hoy mismo para descubrir la comodidad de gestionar tu
+          ¡Unite a la revolución financiera con <strong>Nuovo</strong>!
+          Registrate hoy mismo para descubrir la comodidad de gestionar tu
           dinero de forma inteligente. Desde depósitos sin complicaciones hasta
-          servicios personalizados, Nuovotech te ofrece una experiencia
+          servicios personalizados, <strong>Nuovo</strong> te ofrece una experiencia
           financiera moderna y segura. ¡No te pierdas la oportunidad de tomar el
-          control de tu futuro financiero! Haz clic para comenzar ahora.
+          control de tu futuro financiero! Hacé clic para comenzar ahora.
         </p>
 
         <button>
-          <Link to="/registro">Únete ahora</Link>
+          <Link to="/registro">Unite ahora</Link>
         </button>
       </div>
     </div>
