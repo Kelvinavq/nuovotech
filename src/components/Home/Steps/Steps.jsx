@@ -17,7 +17,7 @@ const Steps = () => {
           </div>
 
           <div className="content">
-            <h2>Regístrate</h2>
+            <h2>Registrate</h2>
             <p>
             Tu puerta de entrada al mundo financiero digital. Registrate ahora para disfrutar de una experiencia bancaria moderna, segura y sin complicaciones. 
             </p>

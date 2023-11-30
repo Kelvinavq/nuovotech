@@ -18,6 +18,15 @@ import Perfil from "./pages/User/Ajustes_Perfil";
 import Ajustes_Verificacion from "./pages/User/Ajustes_Verificacion";
 import Ajustes_Seguridad from "./pages/User/Ajustes_Seguridad";
 
+// admin
+import Dashboard_a from "./pages/Admin/Dashboard_a";
+import Retiros_admin from "./pages/Admin/Retiros_admin";
+import Depositos_admin from "./pages/Admin/Depositos_admin";
+import Verificaciones_admin from "./pages/Admin/Verificaciones_admin";
+import Ajustes_admin from "./pages/Admin/Ajustes_admin";
+import Retiros_a from "./components/Admin/Retiros_Admin/Retiros_a";
+
+
 // paths
 const router = createBrowserRouter([
   {
@@ -56,6 +65,29 @@ const router = createBrowserRouter([
     path: "/user/ajustes/seguridad",
     element: <Ajustes_Seguridad />,
   },
+
+  // admin
+  {
+    path: "/admin/dashboard",
+    element: <Dashboard_a />,
+  },
+  {
+    path: "/admin/retiros",
+    element: <Retiros_admin />,
+  },
+  {
+    path: "/admin/depositos",
+    element: <Depositos_admin />,
+  },
+  {
+    path: "/admin/verificaciones",
+    element: <Verificaciones_admin />,
+  },
+  {
+    path: "/admin/ajustes",
+    element: <Ajustes_admin />,
+  },
+
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
