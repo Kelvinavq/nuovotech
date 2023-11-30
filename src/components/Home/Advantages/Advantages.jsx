@@ -14,9 +14,9 @@ const Advantages = () => {
         <div className="advantages">
 
             <div className="content">
-                <h2>Explora las ventajas que tienes con </h2>
+                <h2>Explorá las ventajas que tenés con </h2>
                 <strong>Nuovo</strong>
-                <p>Descubre un mundo de posibilidades financieras con <strong>Nuovo</strong>, donde la innovación se encuentra con la comodidad. En nuestro espacio digital, puedes depositar fondos de manera segura, retirarlos con facilidad y realizar transferencias fluidas a otros usuarios.</p>
+                <p>Descubrí un mundo de posibilidades financieras con <strong>Nuovo</strong>, donde la innovación se encuentra con la comodidad. En nuestro espacio digital, podés depositar fondos de manera segura, retirarlos con facilidad y realizar transferencias fluidas a otros usuarios.</p>
             </div>
 
             <div className="cards">
