@@ -14,9 +14,6 @@ const Dashboard = () => {
       <Sidebar />
       <Button />
 
-      {/* <button className="btnSidebar" onClick={toggleSidebar}>
-        <MenuOpenIcon />
-      </button> */}
 
       <main>
         <Balance />
