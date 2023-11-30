@@ -4,7 +4,7 @@ import "./Style.css";
 import InicioIcon from "../../../assets/icons/Home.svg";
 import DepositoIcon from "../../../assets/icons/Depositos.svg";
 import RetirosIcon from "../../../assets/icons/Retiros.svg";
-import VerificacionIcon from "../../../assets/icons/verificacion.svg";
+import VerificacionIcon from "../../../assets/icons/Verificacion.svg";
 import AjustesIcon from "../../../assets/icons/Ajustes.svg";
 import LogoutIcon from "../../../assets/icons/Logout.svg";
 
