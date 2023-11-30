@@ -27,7 +27,7 @@ const Advantages = () => {
 
                     <div className="content">
                         <h2>Seguridad Integral</h2>
-                        <p>Depositá con confianza sabiendo que NuovoTech prioriza la seguridad de tus fondos con las últimas medidas de protección.</p>
+                        <p>Depositá con confianza sabiendo que Nuovo prioriza la seguridad de tus fondos con las últimas medidas de protección.</p>
                     </div>
                 </div>
 
