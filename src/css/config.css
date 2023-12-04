@@ -176,8 +176,7 @@ abbr[title] {
 b,
 strong {
   font-weight: bolder;
-  font-family: 'VenusRisingRG', sans-serif;
-  color: var(--white) !important;
+
 }
 
 /**

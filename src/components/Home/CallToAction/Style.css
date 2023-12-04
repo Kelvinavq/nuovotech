@@ -22,7 +22,9 @@
     font-size: 1.2em;
 }
 .calltoaction .content strong{
-    color: var(--green);
+  font-family: 'VenusRisingRG', sans-serif;
+  color: var(--white) !important;
+  font-size: .9em;
 }
 
 .calltoaction .content button {

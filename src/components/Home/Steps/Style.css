@@ -41,8 +41,9 @@
 
 .steps .card .content  strong{
   font-weight: bold;
-  color: var(--green);
   font-family: 'VenusRisingRG', sans-serif;
+  color: var(--white) !important;
+  font-size: .9em;
 }
 
 .steps .card .content  a{

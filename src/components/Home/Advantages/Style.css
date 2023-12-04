@@ -16,13 +16,15 @@
 }
 
 .advantages .content strong:nth-child(2) {
+  font-family: 'VenusRisingRG', sans-serif;
+  color: var(--white) !important;
   font-size: 2em;
-  color: var(--green);
 }
 
 .advantages .content strong:nth-child(1){
-  color: var(--green);
-
+  font-family: 'VenusRisingRG', sans-serif;
+  color: var(--white) !important;
+  font-size: .9em;
 }
 
 .advantages .content p {
