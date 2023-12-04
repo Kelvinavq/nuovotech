@@ -35,7 +35,7 @@ const Steps = () => {
           <div className="content">
             <h2>Depositá</h2>
             <p>
-            Con Nuovo, depositar dinero es tan sencillo como un clic. Te ofrecemos diferentes opciones para gestionar tu dinero de manera efectiva y segura.
+            Con <strong>Nuovo</strong>, depositar dinero es tan sencillo como un clic. Te ofrecemos diferentes opciones para gestionar tu dinero de manera efectiva y segura.
             </p>
 
             <Link to="/registro">

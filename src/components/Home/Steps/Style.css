@@ -42,7 +42,7 @@
 .steps .card .content  strong{
   font-weight: bold;
   color: var(--green);
-
+  font-family: 'VenusRisingRG', sans-serif;
 }
 
 .steps .card .content  a{
