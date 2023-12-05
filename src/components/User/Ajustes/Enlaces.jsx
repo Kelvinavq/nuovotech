@@ -1,6 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
 import "./Style.css";
-import "./Style.css";
 
 const Enlaces = () => {
   const location = useLocation();

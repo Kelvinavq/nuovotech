@@ -1,11 +1,18 @@
-import Verificaciones_a from "../../components/Admin/Verificaciones_Admin/Verificaciones_a"
+import Sidebar_a from "../../components/Admin/Sidebar_Admin/Sidebar_a";
+import Button_a from "../../components/Admin/Sidebar_Admin/Button_a";
+import Ajustes_a from "../../components/Admin/Ajustes_Admin/Ajustes_a";
 
 const Verificaciones_Admin = () => {
   return (
-    <div>
-      <Verificaciones_a/>
-    </div>
-  )
-}
+    <div classname="ajustes_a perfil">
+      <Sidebar_a />
+      <Button_a />
 
-export default Verificaciones_Admin
+      <main >
+        <Ajustes_a />
+      </main>
+    </div>
+  );
+};
+
+export default Verificaciones_Admin;

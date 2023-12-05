@@ -24,8 +24,8 @@ import Retiros_admin from "./pages/Admin/Retiros_admin";
 import Depositos_admin from "./pages/Admin/Depositos_admin";
 import Verificaciones_admin from "./pages/Admin/Verificaciones_admin";
 import Ajustes_admin from "./pages/Admin/Ajustes_admin";
-import Retiros_a from "./components/Admin/Retiros_Admin/Retiros_a";
-
+import Verificacion from "./pages/Admin/Verificacion";
+import Ajustes_a_Seguridad from "./pages/Admin/Ajustes_a_Seguridad";
 
 // paths
 const router = createBrowserRouter([
@@ -84,10 +84,17 @@ const router = createBrowserRouter([
     element: <Verificaciones_admin />,
   },
   {
+    path: "/admin/verificacion",
+    element: <Verificacion />,
+  },
+  {
     path: "/admin/ajustes",
     element: <Ajustes_admin />,
   },
-
+  {
+    path: "/admin/ajustes/seguridad",
+    element: <Ajustes_a_Seguridad />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

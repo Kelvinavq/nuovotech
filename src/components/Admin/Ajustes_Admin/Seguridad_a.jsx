@@ -1,12 +1,12 @@
 import React, { useState } from "react";
+import "./Style.css";
+import Enlaces_a from "./Enlaces_a";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
-import Enlaces from "./Enlaces";
-import Saldo from "../Saldo/Saldo";
-
 const MySwal = withReactContent(Swal);
+import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline';
 
-const Seguridad = () => {
+const Seguridad_a = () => {
   const [currentPassword, setCurrentPassword] = useState("");
   const [newPassword, setNewPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
@@ -86,10 +86,9 @@ const Seguridad = () => {
 
   return (
     <div className="ajustes_seguridad">
-      <Saldo />
       <div className="content">
         <h2>Ajustes</h2>
-        <Enlaces />
+        <Enlaces_a />
 
         <div className="text">
           <p>Actualización de contraseña</p>
@@ -100,4 +99,4 @@ const Seguridad = () => {
   );
 };
 
-export default Seguridad;
+export default Seguridad_a;

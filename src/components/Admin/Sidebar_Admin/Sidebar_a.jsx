@@ -40,7 +40,7 @@ const Sidebar_a = () => {
           </div>
         </div>
         <div
-          className={`item i-verificacion ${isActive("/admin/verificaciones")}`}
+          className={`item i-verificacion ${isActive("/admin/verificaciones")} ${isActive("/admin/verificacion")}`}
         >
           <div className="icon">
             <Link to="/admin/verificaciones">
@@ -48,7 +48,7 @@ const Sidebar_a = () => {
             </Link>
           </div>
         </div>
-        <div className={`item i-ajustes ${isActive("/admin/ajustes")} `}>
+        <div className={`item i-ajustes ${isActive("/admin/ajustes")} ${isActive("/admin/ajustes/seguridad")} `}>
           <div className="icon">
             <Link to="/admin/ajustes">
               <img src={AjustesIcon} alt="" />
