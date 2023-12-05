@@ -10,9 +10,14 @@
   text-align: center;
 }
 
+.advantages .content img{
+  max-width: 200px;
+}
+
 .advantages .content h2 {
   font-size: 2em;
   margin: 0;
+  font-weight: 600;
 }
 
 .advantages .content strong:nth-child(2) {

@@ -5,6 +5,7 @@ import seguridad from "../../../assets/icons/seguridad.png";
 import transacciones_rapidas from "../../../assets/icons/transacciones_rapidas.png";
 import comisiones from "../../../assets/icons/comisiones.png";
 import atencion from "../../../assets/icons/atencion_personalizada.png";
+import logo from "../../../assets/images/nuovo.png"
 
 
 const Advantages = () => {
@@ -15,7 +16,7 @@ const Advantages = () => {
 
             <div className="content">
                 <h2>Explorá las ventajas que tenés con </h2>
-                <strong>Nuovo</strong>
+                <img src={logo} alt="" />
                 <p>Descubrí un mundo de posibilidades financieras con <strong>Nuovo</strong>, donde la innovación se encuentra con la comodidad. En nuestro espacio digital, podés depositar fondos de manera segura, retirarlos con facilidad y realizar transferencias fluidas a otros usuarios.</p>
             </div>
 
